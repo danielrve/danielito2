@@ -12,7 +12,7 @@ class Gato {
     }
   
     aruña(cat) {
-        cat.lives= this.lives-1;
+        cat.lives= cat.lives-1;
       return "this cat have now "+cat.lives+" lives" ;
     }
 
